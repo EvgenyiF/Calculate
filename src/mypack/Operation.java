@@ -1,12 +1,14 @@
 package mypack;
 
+import java.io.IOException;
+
 public interface Operation {
-    void add();
+    void add() throws IOException;
 
-    void sub();
+    void sub() throws IOException;
 
-    void mul();
+    void mul() throws IOException;
 
-    void div();
+    void div() throws IOException;
 
 }

@@ -1,5 +1,6 @@
 package mypack;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class View {
@@ -7,7 +8,7 @@ public class View {
     Rational rational = new Rational();
     Scanner scanner = new Scanner(System.in);
 
-    public void view() {
+    public void view() throws IOException {
 
         System.out.println("Выберите с какими числами будете работать: ");
         System.out.println("1 - комплексное");
